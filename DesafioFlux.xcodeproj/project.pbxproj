@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		393A7BD14440B8ABD5111636 /* Pods_DesafioFlux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1FD46B7BDA1658185EBD0F /* Pods_DesafioFlux.framework */; };
+		FD9254AD2479D6F70070E63D /* CeldaPer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9254AC2479D6F70070E63D /* CeldaPer.swift */; };
+		FD9507FB247B19C0002F4FEB /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9507FA247B19C0002F4FEB /* BookDetailController.swift */; };
+		FDE25D102479B35500CB592C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D0F2479B35500CB592C /* AppDelegate.swift */; };
+		FDE25D122479B35500CB592C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D112479B35500CB592C /* SceneDelegate.swift */; };
+		FDE25D172479B35500CB592C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE25D152479B35500CB592C /* Main.storyboard */; };
+		FDE25D1A2479B35500CB592C /* DesafioFlux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D182479B35500CB592C /* DesafioFlux.xcdatamodeld */; };
+		FDE25D1C2479B35700CB592C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDE25D1B2479B35700CB592C /* Assets.xcassets */; };
+		FDE25D1F2479B35700CB592C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE25D1D2479B35700CB592C /* LaunchScreen.storyboard */; };
+		FDE25D272479BAE100CB592C /* BooksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D262479BAE100CB592C /* BooksController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1FD46B7BDA1658185EBD0F /* Pods_DesafioFlux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesafioFlux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		517A365C10857B1915F34406 /* Pods-DesafioFlux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFlux.debug.xcconfig"; path = "Target Support Files/Pods-DesafioFlux/Pods-DesafioFlux.debug.xcconfig"; sourceTree = "<group>"; };
+		5C2500BFD6CCE281BBA38036 /* Pods-DesafioFlux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFlux.release.xcconfig"; path = "Target Support Files/Pods-DesafioFlux/Pods-DesafioFlux.release.xcconfig"; sourceTree = "<group>"; };
+		FD9254AC2479D6F70070E63D /* CeldaPer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPer.swift; sourceTree = "<group>"; };
+		FD9507FA247B19C0002F4FEB /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
+		FDE25D0C2479B35500CB592C /* DesafioFlux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioFlux.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE25D0F2479B35500CB592C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDE25D112479B35500CB592C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDE25D162479B35500CB592C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDE25D192479B35500CB592C /* DesafioFlux.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DesafioFlux.xcdatamodel; sourceTree = "<group>"; };
+		FDE25D1B2479B35700CB592C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDE25D1E2479B35700CB592C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDE25D202479B35700CB592C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDE25D262479BAE100CB592C /* BooksController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE25D092479B35500CB592C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				393A7BD14440B8ABD5111636 /* Pods_DesafioFlux.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		903737ACE24C80B63C046B71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				517A365C10857B1915F34406 /* Pods-DesafioFlux.debug.xcconfig */,
+				5C2500BFD6CCE281BBA38036 /* Pods-DesafioFlux.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B45182C777E1D4548B3E4BD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1FD46B7BDA1658185EBD0F /* Pods_DesafioFlux.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDE25D032479B35500CB592C = {
+			isa = PBXGroup;
+			children = (
+				FDE25D0E2479B35500CB592C /* DesafioFlux */,
+				FDE25D0D2479B35500CB592C /* Products */,
+				903737ACE24C80B63C046B71 /* Pods */,
+				B45182C777E1D4548B3E4BD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE25D0D2479B35500CB592C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE25D0C2479B35500CB592C /* DesafioFlux.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE25D0E2479B35500CB592C /* DesafioFlux */ = {
+			isa = PBXGroup;
+			children = (
+				FDE25D0F2479B35500CB592C /* AppDelegate.swift */,
+				FDE25D112479B35500CB592C /* SceneDelegate.swift */,
+				FDE25D152479B35500CB592C /* Main.storyboard */,
+				FDE25D1B2479B35700CB592C /* Assets.xcassets */,
+				FDE25D1D2479B35700CB592C /* LaunchScreen.storyboard */,
+				FDE25D202479B35700CB592C /* Info.plist */,
+				FDE25D182479B35500CB592C /* DesafioFlux.xcdatamodeld */,
+				FDE25D262479BAE100CB592C /* BooksController.swift */,
+				FD9254AC2479D6F70070E63D /* CeldaPer.swift */,
+				FD9507FA247B19C0002F4FEB /* BookDetailController.swift */,
+			);
+			path = DesafioFlux;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE25D0B2479B35500CB592C /* DesafioFlux */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE25D232479B35700CB592C /* Build configuration list for PBXNativeTarget "DesafioFlux" */;
+			buildPhases = (
+				5779ECF2412615AF73E81AFA /* [CP] Check Pods Manifest.lock */,
+				FDE25D082479B35500CB592C /* Sources */,
+				FDE25D092479B35500CB592C /* Frameworks */,
+				FDE25D0A2479B35500CB592C /* Resources */,
+				85984AD5B0A887CBE1259859 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioFlux;
+			productName = DesafioFlux;
+			productReference = FDE25D0C2479B35500CB592C /* DesafioFlux.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE25D042479B35500CB592C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Diego Veron";
+				TargetAttributes = {
+					FDE25D0B2479B35500CB592C = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FDE25D072479B35500CB592C /* Build configuration list for PBXProject "DesafioFlux" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDE25D032479B35500CB592C;
+			productRefGroup = FDE25D0D2479B35500CB592C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE25D0B2479B35500CB592C /* DesafioFlux */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE25D0A2479B35500CB592C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE25D1F2479B35700CB592C /* LaunchScreen.storyboard in Resources */,
+				FDE25D1C2479B35700CB592C /* Assets.xcassets in Resources */,
+				FDE25D172479B35500CB592C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5779ECF2412615AF73E81AFA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesafioFlux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85984AD5B0A887CBE1259859 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioFlux/Pods-DesafioFlux-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DesafioFlux/Pods-DesafioFlux-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DesafioFlux/Pods-DesafioFlux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE25D082479B35500CB592C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9254AD2479D6F70070E63D /* CeldaPer.swift in Sources */,
+				FD9507FB247B19C0002F4FEB /* BookDetailController.swift in Sources */,
+				FDE25D102479B35500CB592C /* AppDelegate.swift in Sources */,
+				FDE25D1A2479B35500CB592C /* DesafioFlux.xcdatamodeld in Sources */,
+				FDE25D272479BAE100CB592C /* BooksController.swift in Sources */,
+				FDE25D122479B35500CB592C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDE25D152479B35500CB592C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE25D162479B35500CB592C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDE25D1D2479B35700CB592C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDE25D1E2479B35700CB592C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE25D212479B35700CB592C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDE25D222479B35700CB592C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE25D242479B35700CB592C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 517A365C10857B1915F34406 /* Pods-DesafioFlux.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZRKPN4FW4;
+				INFOPLIST_FILE = DesafioFlux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.desafio.DesafioFlux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE25D252479B35700CB592C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C2500BFD6CCE281BBA38036 /* Pods-DesafioFlux.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZRKPN4FW4;
+				INFOPLIST_FILE = DesafioFlux/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ar.com.desafio.DesafioFlux;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE25D072479B35500CB592C /* Build configuration list for PBXProject "DesafioFlux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE25D212479B35700CB592C /* Debug */,
+				FDE25D222479B35700CB592C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE25D232479B35700CB592C /* Build configuration list for PBXNativeTarget "DesafioFlux" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE25D242479B35700CB592C /* Debug */,
+				FDE25D252479B35700CB592C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FDE25D182479B35500CB592C /* DesafioFlux.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FDE25D192479B35500CB592C /* DesafioFlux.xcdatamodel */,
+			);
+			currentVersion = FDE25D192479B35500CB592C /* DesafioFlux.xcdatamodel */;
+			path = DesafioFlux.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDE25D042479B35500CB592C /* Project object */;
+}
