@@ -14,8 +14,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,8 +30,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "131"
-            endingLineNumber = "131"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -46,8 +46,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -62,8 +62,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
+            startingLineNumber = "138"
+            endingLineNumber = "138"
             landmarkName = "tableView(_:cellForRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "141"
-            endingLineNumber = "141"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
             landmarkName = "filterContein(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "146"
-            endingLineNumber = "146"
+            startingLineNumber = "148"
+            endingLineNumber = "148"
             landmarkName = "filterContein(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -110,8 +110,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "152"
-            endingLineNumber = "152"
+            startingLineNumber = "154"
+            endingLineNumber = "154"
             landmarkName = "fitroBook(param:)"
             landmarkType = "7">
             <Locations>
@@ -158,8 +158,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
             landmarkName = "fitroBook(param:)"
             landmarkType = "7">
             <Locations>
@@ -206,8 +206,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "155"
-            endingLineNumber = "155"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
             landmarkName = "fitroBook(param:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -222,8 +222,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "143"
-            endingLineNumber = "143"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
             landmarkName = "filterContein(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -238,8 +238,8 @@
             filePath = "DesafioFlux/BooksController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "filterContein(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -324,14 +324,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "79C792BB-4FBB-4E99-8291-69A9BDAE31F4 - afeb62e814d603c1"
+                  uuid = "79C792BB-4FBB-4E99-8291-69A9BDAE31F4 - 1e187a14690b648a"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "DesafioFlux.BooksController.orderByPopularityAsc() -&gt; ()"
                   moduleName = "DesafioFlux"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/diegoveron/AppIOS/DesafioFlux/DesafioFlux/BooksController.swift"
+                  urlString = "file:///Users/diegoveron/AppIOS/DesafioIOS/desafioIOS/DesafioFlux/BooksController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "74"
@@ -339,14 +339,14 @@
                   offsetFromSymbolStart = "393">
                </Location>
                <Location
-                  uuid = "79C792BB-4FBB-4E99-8291-69A9BDAE31F4 - 278ba31ab63c0843"
+                  uuid = "79C792BB-4FBB-4E99-8291-69A9BDAE31F4 - 9678bbe6cbe16f08"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #2 (DesafioFlux.Book, DesafioFlux.Book) -&gt; Swift.Bool in DesafioFlux.BooksController.orderByPopularityAsc() -&gt; ()"
                   moduleName = "DesafioFlux"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/diegoveron/AppIOS/DesafioFlux/DesafioFlux/BooksController.swift"
+                  urlString = "file:///Users/diegoveron/AppIOS/DesafioIOS/desafioIOS/DesafioFlux/BooksController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "75"
@@ -433,6 +433,22 @@
             startingLineNumber = "41"
             endingLineNumber = "41"
             landmarkName = "setOrder(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "86EE75CA-E9C2-4A79-A788-4F2404A1880B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DesafioFlux/BooksController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "orderByPopularityDesc()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

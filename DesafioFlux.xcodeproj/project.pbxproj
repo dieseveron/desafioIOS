@@ -10,6 +10,8 @@
 		393A7BD14440B8ABD5111636 /* Pods_DesafioFlux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1FD46B7BDA1658185EBD0F /* Pods_DesafioFlux.framework */; };
 		FD9254AD2479D6F70070E63D /* CeldaPer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9254AC2479D6F70070E63D /* CeldaPer.swift */; };
 		FD9507FB247B19C0002F4FEB /* BookDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD9507FA247B19C0002F4FEB /* BookDetailController.swift */; };
+		FDC76E2C24B7A3E300C277BD /* BookGridController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC76E2B24B7A3E300C277BD /* BookGridController.swift */; };
+		FDC76E2E24B7B70100C277BD /* CellCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC76E2D24B7B70100C277BD /* CellCollection.swift */; };
 		FDE25D102479B35500CB592C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D0F2479B35500CB592C /* AppDelegate.swift */; };
 		FDE25D122479B35500CB592C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE25D112479B35500CB592C /* SceneDelegate.swift */; };
 		FDE25D172479B35500CB592C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDE25D152479B35500CB592C /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 		5C2500BFD6CCE281BBA38036 /* Pods-DesafioFlux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesafioFlux.release.xcconfig"; path = "Target Support Files/Pods-DesafioFlux/Pods-DesafioFlux.release.xcconfig"; sourceTree = "<group>"; };
 		FD9254AC2479D6F70070E63D /* CeldaPer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaPer.swift; sourceTree = "<group>"; };
 		FD9507FA247B19C0002F4FEB /* BookDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailController.swift; sourceTree = "<group>"; };
+		FDC76E2B24B7A3E300C277BD /* BookGridController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookGridController.swift; sourceTree = "<group>"; };
+		FDC76E2D24B7B70100C277BD /* CellCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCollection.swift; sourceTree = "<group>"; };
 		FDE25D0C2479B35500CB592C /* DesafioFlux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioFlux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE25D0F2479B35500CB592C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDE25D112479B35500CB592C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				FDE25D262479BAE100CB592C /* BooksController.swift */,
 				FD9254AC2479D6F70070E63D /* CeldaPer.swift */,
 				FD9507FA247B19C0002F4FEB /* BookDetailController.swift */,
+				FDC76E2B24B7A3E300C277BD /* BookGridController.swift */,
+				FDC76E2D24B7B70100C277BD /* CellCollection.swift */,
 			);
 			path = DesafioFlux;
 			sourceTree = "<group>";
@@ -218,9 +224,11 @@
 				FD9254AD2479D6F70070E63D /* CeldaPer.swift in Sources */,
 				FD9507FB247B19C0002F4FEB /* BookDetailController.swift in Sources */,
 				FDE25D102479B35500CB592C /* AppDelegate.swift in Sources */,
+				FDC76E2E24B7B70100C277BD /* CellCollection.swift in Sources */,
 				FDE25D1A2479B35500CB592C /* DesafioFlux.xcdatamodeld in Sources */,
 				FDE25D272479BAE100CB592C /* BooksController.swift in Sources */,
 				FDE25D122479B35500CB592C /* SceneDelegate.swift in Sources */,
+				FDC76E2C24B7A3E300C277BD /* BookGridController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
