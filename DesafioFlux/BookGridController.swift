@@ -101,15 +101,7 @@ class BookGridController: UIViewController , UICollectionViewDelegate, UICollect
     @IBAction func cerrar(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
-    func scaleDown(image: UIImage, withSize: CGSize) -> UIImage {
-        let scale = UIScreen.main.scale
-        UIGraphicsBeginImageContextWithOptions(withSize, false, scale)
-        image.draw(in: CGRect(x: 0, y: 0, width: withSize.width, height: withSize.height))
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return newImage!
-        
-    }
+
     
 
 };extension UIImageView {
